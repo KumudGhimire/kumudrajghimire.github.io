@@ -1,0 +1,17 @@
+Name: Kumud raj ghimire
+Gender: Male
+Age: 17
+Address: Chunikhel, Lalitpur, Nepal
+Email: ghimirekumudraj@gmail.com
+Contact no: 9861978033
+
+Qualification: +2
+
+Skills: 
+	-Photoshop/image editing
+	-Aseprite/pixel art
+	-Kinemaster/video editing	
+	-VS code/ html, css, js, python, c ,c++
+
+
+

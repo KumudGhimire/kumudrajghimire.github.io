@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Sofia+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Sofia+Sans&family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    ;
+
+}
+
+.sidebar {
+    position: absolute;
+    background-color: rgba(165, 164, 164, 0.842);
+    height: 100vh;
+    font-family: 'Sofia Sans', sans-serif;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 30px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: rgb(51, 50, 50);
+}
+
+.main {
+    /* background-color: blueviolet; */
+    width: 88vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    /* background-color: brown; */
+    margin: 75px auto;
+    width: 80vw;
+    height: 75vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.hello {
+    color: rgb(48, 160, 104);
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+}
+
+.name {
+    color: rgb(48, 160, 104);
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Pacifico', cursive;
+
+}
+
+.about {
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.btn {
+    margin-top: 35px;
+}
+
+.btn-sm{
+    
+    size: 15px;
+    padding: 4px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(174, 250, 208);
+    cursor: pointer;
+}
+.btn-sm:hover {
+    color: rgb(68, 68, 68);
+    background-color: rgb(211, 255, 221);
+}
+
+.btn button {
+    font-weight: 600;
+    padding: 2px;
+    border-radius: 5px;
+    color: rgb(57, 73, 59);
+    background-color: rgb(141, 199, 167);
+    cursor: pointer;
+}
+
+.btn button:hover {
+    color: rgb(70, 94, 69);
+    background-color: rgb(162, 204, 171);
+}
+
+
+.devPic img {
+    width: 30vw;
+    height: 75vh;
+}
+
+.contactForm {
+
+    font-family: 'Sofia Sans', sans-serif;
+    padding-top: 20px;
+    padding-left: 400px;
+
+
+}
+
+.contactForm form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title {
+    color: rgb(48, 160, 104);;
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    padding-top: 100px;
+    padding-left: 300px;
+   
+}
+
+#emailHelp {
+    font-size: 10px;
+    color: rgb(255, 115, 115);
+}
+
+#clientname {
+    width: 20vw;
+}
+
+#clientmail {
+    width: 20vw;
+}
+
+#clientphone {
+    width: 20vw;
+}
+
+#clientquery {
+    width: 20vw;
+    height: 10vh;
+}
+
+#isclient {
+    font-size: 18px;
+}
+
+.s2{
+    padding-left: 450px;
+    padding-top: 30px;
+    font-size: large;
+    font-weight: 700;
+}
+
+.hamburger{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+.cross{
+   margin-left: 120px;     
+}
+
+.sidebargo{
+    transform: translate(-500px, 0px);
+    position: absolute;
+}
+
+@media (max-width: 1300px) {
+    .devPic {
+    display: none;
+    }   
+    
+}
